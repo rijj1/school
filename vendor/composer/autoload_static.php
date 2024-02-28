@@ -224,6 +224,7 @@ class ComposerStaticInit3618c9ec96a1ad4502ff810b8e1f7d87
         array (
             'Awobaz\\Compoships\\' => 18,
             'App\\' => 4,
+            'Amnuts\\' => 7,
         ),
     );
 
@@ -704,6 +705,10 @@ class ComposerStaticInit3618c9ec96a1ad4502ff810b8e1f7d87
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
+        'Amnuts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amnuts/opcache-gui/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -724,6 +729,7 @@ class ComposerStaticInit3618c9ec96a1ad4502ff810b8e1f7d87
     );
 
     public static $classMap = array (
+        'Amnuts\\Opcache\\Service' => __DIR__ . '/..' . '/amnuts/opcache-gui/src/Opcache/Service.php',
         'App\\Console\\Commands\\SubscriptionBillCron' => __DIR__ . '/../..' . '/app/Console/Commands/SubscriptionBillCron.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',

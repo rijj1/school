@@ -124,4 +124,5 @@ return array(
     'Barryvdh\\Debugbar\\' => array($vendorDir . '/barryvdh/laravel-debugbar/src'),
     'Awobaz\\Compoships\\' => array($vendorDir . '/awobaz/compoships/src'),
     'App\\' => array($baseDir . '/app'),
+    'Amnuts\\' => array($vendorDir . '/amnuts/opcache-gui/src'),
 );

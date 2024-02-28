@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Amnuts\\Opcache\\Service' => $vendorDir . '/amnuts/opcache-gui/src/Opcache/Service.php',
     'App\\Console\\Commands\\SubscriptionBillCron' => $baseDir . '/app/Console/Commands/SubscriptionBillCron.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',

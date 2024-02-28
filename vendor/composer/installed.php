@@ -3,13 +3,22 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '7733a81577584885b82c2c9a527124faa262e0e1',
+        'reference' => '3a77ed72473a9029e4a06ea0d431fe2ebb5b694b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'amnuts/opcache-gui' => array(
+            'pretty_version' => '3.5.4',
+            'version' => '3.5.4.0',
+            'reference' => 'f3a8fe44c0a4c69dd69b9999d68f9097ee362946',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../amnuts/opcache-gui',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'awobaz/compoships' => array(
             'pretty_version' => '2.2.3',
             'version' => '2.2.3.0',
@@ -535,7 +544,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '7733a81577584885b82c2c9a527124faa262e0e1',
+            'reference' => '3a77ed72473a9029e4a06ea0d431fe2ebb5b694b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

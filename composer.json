@@ -16,7 +16,9 @@
     "require": {
         "php": "^8.0",
         "ext-curl": "*",
+        "ext-pdo": "*",
         "ext-zip": "*",
+        "amnuts/opcache-gui": "^3.5",
         "awobaz/compoships": "^2.1",
         "barryvdh/laravel-dompdf": "^2.0",
         "doctrine/dbal": "^3.0",
@@ -30,10 +32,9 @@
         "maatwebsite/excel": "^3.1",
         "psr/simple-cache": "^2.0",
         "razorpay/razorpay": "2.*",
-        "spatie/laravel-permission": "^5.5",
-        "stripe/stripe-php": "^10.0",
         "sagar/laravel-wizard-installer": "*",
-      "ext-pdo": "*"
+        "spatie/laravel-permission": "^5.5",
+        "stripe/stripe-php": "^10.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
